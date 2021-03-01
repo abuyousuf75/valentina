@@ -269,6 +269,11 @@ nav{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 20px;
+    transition: all linear 0.4s;
+}
+a.gift-btn:hover {
+    color: #d50a51;
+    background: #ffffff;
 }
 .proposal-btn{
     padding: 14px 19px;
@@ -279,6 +284,11 @@ nav{
     font-size: 20px;
     border-radius: 24px;
    margin-left: 13px;
+   transition: all linear 0.4s;
+}
+a.proposal-btn:hover {
+    color: #ffffff;
+    background: #d50a51;
 }
 
 .gift-right{
@@ -364,7 +374,6 @@ nav{
 .servics-left{
     width:370px;
 }
-
 .servics-left h2{
     padding-left: 52px;
     font-family: "Josefin Sans", sans-serif;
@@ -398,51 +407,53 @@ nav{
     color:#444444;
     line-height: 26px;
 }
+.servics-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:780px;
+    padding-bottom: 40px;
+}
 
-.offer{
-   
+.servics-right-main{
+    height:210px;
     width:370px;
-    margin-bottom: 43px;
-    padding-top: 20px;
-    height: 250px;
-    transition:all linear 0.4s;
+    transition: all linear 0.4s;
   
 }
-.offer:hover{
-    background:#f1f1f1;
+.servics-right-main:hover{
     border-right: 3px solid #d50a51;
+    background:#f1f1f1;
+    box-shadow: 2px 2px 2px 2px #ddd;
 }
 
-.offer-text h1{
+
+.servics-img{
+    display:flex;
+  
+}
+.servics-img img{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 12px;
+   
+}
+.servics-img h2{
+    padding-top: 46px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
     color: #d50a51;
-    padding-left: 22px;
-    padding-top: 20px;
-}
-.offer-main{
-    display:flex;
-    justify-content:space-around;
-}
-.offer-iteam{
-    display:flex;
-    justify-content:space-around;
-}
 
-.offer-text{
-    width:300px;
 }
-
-.offer p{
+.servics-text p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color:#444444;
     line-height: 26px;
-    padding:0 15px;
-    padding-top: 30px;
-   
+    padding:0px 24px;
+    padding-top: 20px;
 }
 
 
