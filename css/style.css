@@ -47,7 +47,25 @@ nav{
     color:#000000;
     text-transform: capitalize;
     transition: all linear 0.4s;
+    position: relative;
 }
+.menu ul li a::after {
+    width: 100px;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: 0;
+    background: url(../images/after.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.menu ul li a:hover::after{
+    opacity: 1;
+}
+
 
 .menu ul li a:hover{
     color:#d50a51;
@@ -121,12 +139,19 @@ nav{
 }
 .banner-right a {
     border: 1px solid#d50a51;
-    padding: 14px 18px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
+    padding: 14px 18px;
     font-size: 20px;
     color:#d50a51;
     border-radius: 24px;
+    transition: all linear 0.4s;
+
+}
+.banner-right a:hover {
+    background: #d50a51;
+    color: #ffffff;
+    
 }
 /*--=========History Part Css Goes Here---======*/
 
