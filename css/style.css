@@ -761,12 +761,97 @@ nav{
 
 
 #footer{
-    background:rgba(251, 218, 231, 0.89);
+    background:rgba(252, 227, 238, 0.842);
     padding-top: 60px;
 }
 
 .center-logo{
     text-align: center;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+
+.adress-main{
+    display:flex;
+    justify-content: space-around;
+}
+.adress-iteam{
+    width:300px;
+    display:flex;
+}
+.adress-icon {
+    line-height: 60px;
+    width: 80px;
+    height: 50px;
+    background: #d50a51;
+    text-align: center;
+    border-radius: 50%;
+}
+.adress-icon i{
+    color:#ffffff;
+    font-size: 28px;
+}
+
+.adress-text{
+    padding-left: 15px;
+}
+
+.adress-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#444444;
+}
+
+
+.bottom p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#d50a51;
+    padding-top: 50px;
+}
+.social{
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.social i{
+    text-align: center;
+    padding-top: 20px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:2px solid #db2d6a;
+    line-height: 0px;
+    color:#ffffff;
+    background:white;
+    color:#db2d6a;
+    transition: all linear 0.4s;
+}
+.social a{
+    color:#db2d6a;
+}
+.social i:hover{
+    background:#db2d6a;
+    color:#ffffff;
+}
+
+
+.copy-right{
+    background:rgba(243, 229, 235, 0.966);
+    text-align: center;
+
+}
+.copy-right p{
+    line-height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#444444;
+}
+.copy-right span{
+    color:#d50a51;
 }
